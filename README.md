@@ -3,6 +3,7 @@ RAMPS port of V1.16 of FastStacker
 Fast Stacker
 
 From original project README:
+
 DIY cheap, fast, portable, and accurate automated macro focus stacking rail (based on Arduino microcontroller) 
 which can be used with a wide range of photo cameras, and magnifications from standard macro (1:1) to extreme 
 macro (up to 20:1). To reproduce this project, you need some basic mechanical and soldering skills. 
