@@ -1,0 +1,45 @@
+ #C: Initiate a full calibration
+ #B: Initiate emergency breaking, or abort paused stacking
+ #2: Save parameters to first memory bank
+ #3: Read parameters from first memory bank
+ #5: Save parameters to second memory bank
+ #6: Read parameters from second memory bank
+ #8: Cycle through the table for FIRST_DELAY parameter
+ #9: Cycle through the table for SECOND_DELAY parameter
+ #4: Backlighting control
+ #*: Factory reset
+ #7: Manual camera shutter triggering
+ #1: Rewind a single frame step (no shooting)
+ #A: Fast-forward a single frame step (no shooting)
+ #D: Go to the last starting point (for both 1- and 2-point shooting); not memorized in EEPROM
+ #0: Start 2-point focus stacking from the foreground point in a non-continuous mode
+ *1: Rail reverse
+ *2: Save parameters to third memory bank
+ *3: Read parameters from third memory bank
+ *5: Save parameters to fourth memory bank
+ *6: Read parameters from fourth memory bank
+ *8: Save parameters to fifth memory bank
+ *9: Read parameters from fifth memory bank
+ *A: Change accel_factor
+ *B: Backlash compensation on 
+ *C: Mirror lock on
+ *D: temporarily disable limiters (not saved to EEPROM)
+ *4: Change N_timelapse
+ *7: Change dt_timelapse
+ *0: Save energy on 
+ 1: Rewinding, or moving 10 frames back for the current stacking direction (if paused)
+ A: Fast forwarding, or moving 10 frames forward for the current stacking direction (if paused)
+ 4: Set foreground point
+ B: Set background point
+ 7: Go to the foreground point
+ C: Go to the background point
+ 0: Start shooting (2-point focus stacking) from the foreground point (backlash compensated)
+ *: Show alternative display (for *X commands)
+ D: Initiate one-point focus stacking forward
+ 2: Decrease parameter n_shots (for 1-point sstacking)
+ 3: Increase parameter n_shots (for 1-point sstacking)
+ 5: Decrease parameter mm_per_frame
+ 6: Increase parameter mm_per_frame
+ 8: Decrease parameter fps
+ 9: Increase parameter fps
+ #: Show the non-continuous parameters in the 5th line of the LCD
