@@ -12,3 +12,4 @@ Detailed tutorial:
 http://pulsar124.wikia.com/wiki/DIY_automated_macro_rail_for_focus_stacking_based_on_Arduino
 
 All of that is still true. This is a port of version 1.16 of that software to RAMPS as described in the Instructable:
+https://www.instructables.com/id/Easy-Build-Focus-Stacking-Rig/
