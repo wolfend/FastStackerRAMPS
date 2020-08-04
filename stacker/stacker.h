@@ -127,7 +127,7 @@ const short NUM_CELLS = 6; //number of AA NiMH cells
 //factor (due to resitor tolerances, etc.). My measured value was 3.66 vs 3.6 calculated.
 // To reduce reading noise, a 0.1uF capacitor has to be soldered parallel to R4.
 // The second factor is 2.56V/1024/NUM_CELLS (assumes we are using internal 2.56V reference).
-const float VOLTAGE_SCALER = 3.66 * 2.56 / 1024.0 / NUM_CELLS;
+const float VOLTAGE_SCALER = 3.60 * 2.56 / 1024.0 / NUM_CELLS;
 // Lowest typical voltage of discharged AA NiMH
 const float V_LOW = 1.15; //determined by experiment. Used to scale SOC indicator
 // Highest voltage from a freshly charged AA battery:
